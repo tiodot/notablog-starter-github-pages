@@ -26,6 +26,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          repository-name: yifengjiu/yifengjiu.github.io
+          repository-name: yifengjiu.github.io
           branch: doc          
           folder: public
